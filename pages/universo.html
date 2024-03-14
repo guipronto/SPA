@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>universo</title>
+</head>
+<body>
+
+    
+
+    <style>
+      
+     
+      *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url('/img/mountains-universe02.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    height: 100vh;
+
+  
+    
+}
+
+nav {
+    margin-top: 4rem;
+    margin-left: 7rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, auto) 1fr ;
+    gap: 10rem; 
+    align-items: center; 
+    
+  }
+  
+
+  nav a {
+    text-decoration: none;
+    color: #cecece;
+    font-weight: bold;
+    font-size:2rem;
+    transition: color 0.3s;
+    
+
+  }
+
+  nav a:hover {
+    color: #FFFFFF;
+}
+  
+  
+ 
+  
+
+  nav img {
+    width: 24px; 
+    height: 24px;
+  }
+
+  .info h1{
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    margin-right: 35rem;
+    margin-bottom: 1.6rem;
+
+  }
+   
+  div .info{
+    display: grid;
+    justify-content: center;
+    
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-align: left;
+   
+    
+  }
+
+  .info p{
+    word-wrap: break-word;
+    color: #E1E1E6;
+    font-size: 1.8rem;
+    font-weight:normal;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    
+ }
+
+ /*telas menores*/
+ @media (max-width: 768px) {
+    nav {
+        margin: 2rem; /* Ajuste a margem para telas menores */
+        grid-template-columns: 1fr; /* Coluna única para telas menores */
+        gap: 1rem; /* Ajuste o espaçamento entre os itens para telas menores */
+    }
+
+    nav a {
+        font-size: 1.6rem; /* Ajuste o tamanho da fonte para telas menores */
+    }
+
+    nav img {
+        width: 18px; /* Ajuste o tamanho da imagem para telas menores */
+        height: 18px;
+    }
+
+    .button {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+}
+
+    </style>
+
+<div class="info">
+    <h1>O Universo</h1>
+    <p>A palavra Universo deriva do latim universum. A palavra latina foi usada por<br>
+       Cícero e posteriormente por outros autores com o mesmo sentido que é<br>
+        empregada atualmente. A palavra latina é derivada da contração poética <br>
+        unvorsum — utilizada primeiramente por Lucrécio no Livro IV de seu “Sobre a <br>
+        Natureza das coisas” — que conecta un, uni (um) com vorsum, versum (que <br>
+        significa "algo rodado, rolado ou mudado").
+    </p>
+</div>
+
+
+    
+</body>
+</html>
